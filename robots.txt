@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://originroastery1-crypto.github.io/al-hosn-engineering/sitemap.xml
