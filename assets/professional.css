@@ -1,0 +1,30 @@
+/* Refined Arabic consultancy design, retaining the approved identity. */
+.site-header{position:sticky;top:0;box-shadow:0 5px 24px #25282606}
+.header-consult{display:inline-flex;align-items:center;justify-content:center;gap:18px;background:var(--burgundy);color:var(--ivory);padding:11px 18px;min-height:46px;font-size:13px;white-space:nowrap}
+.header-consult:hover{background:#713a46}.main-nav{gap:20px}
+.button{border-radius:2px}.button:active{transform:translateY(0)}
+.selected-grid .architecture-image,.identity-panel,.contact-card{border-radius:3px;overflow:hidden}
+.expertise-links a{transition:padding .2s,color .2s}.expertise-links a:hover{padding-inline:12px;color:var(--burgundy)}
+.values-grid article{border-block-start:1px solid var(--line);padding-block-start:24px}
+.values-grid article>span{color:var(--sun);font-variant-numeric:tabular-nums}
+.service-detail{scroll-margin-top:130px}.service-number{font-variant-numeric:tabular-nums}
+.consultation{display:grid;grid-template-columns:.85fr 1.15fr;gap:8%;padding-block:var(--section-space,90px);border-block-start:1px solid var(--line);scroll-margin-top:100px}
+.consultation h2{line-height:1.5}.consultation .lead{margin-block-start:28px}
+.consultation-details{display:grid;gap:20px;margin-block-start:38px;color:var(--burgundy);font-size:15px}
+.consultation-details span{border-block-end:1px solid var(--line);padding-block-end:16px}
+.consultation-panel{background:#fffdf8;padding:36px;border:1px solid var(--line);border-radius:3px;align-self:start}
+.form-grid{display:grid;grid-template-columns:1fr 1fr;gap:24px 20px}.form-grid label{display:flex;flex-direction:column;gap:9px;font-size:14px;font-weight:500}.form-grid label>span{color:var(--burgundy)}
+input,select,textarea{font:inherit;color:var(--ink)}.form-grid input,.form-grid select,.form-grid textarea,.crm-input{width:100%;padding:13px 14px;background:white;border:1px solid #c7bfb1;border-radius:2px;min-height:48px;font-size:15px;line-height:1.7}
+textarea{resize:vertical}.full-field{grid-column:1/-1}input:focus-visible,select:focus-visible,textarea:focus-visible{outline:2px solid var(--sun);outline-offset:3px}
+.consent{display:flex;align-items:flex-start;gap:12px;font-size:13px;line-height:1.9;margin-block:24px}.consent input{width:19px;height:19px;flex-shrink:0;accent-color:var(--burgundy);margin-block-start:4px}.consent a{text-decoration:underline;text-underline-offset:4px}
+.form-trap{position:absolute;left:-10000px;width:1px;height:1px;overflow:hidden}
+#enquiry-status{font-size:13px;color:var(--muted);margin-block-start:18px;line-height:1.9}#enquiry-captcha{margin-block-end:20px}.button:disabled{opacity:.55;cursor:wait;transform:none}
+.questions{display:grid;grid-template-columns:.85fr 1.15fr;gap:8%;padding-block:var(--section-space,90px);border-block-start:1px solid var(--line)}.questions h2{line-height:1.5}
+.faq-list{border-block-start:1px solid var(--line)}.faq-list details{border-block-end:1px solid var(--line)}.faq-list summary{cursor:pointer;display:flex;justify-content:space-between;gap:20px;list-style:none;padding-block:24px;font-size:17px;line-height:1.8;font-weight:500}.faq-list summary::-webkit-details-marker{display:none}.faq-list summary>span{color:var(--burgundy);font-size:24px}.faq-list details[open] summary>span{transform:rotate(45deg)}.faq-list details p{font-size:16px;line-height:2;color:var(--muted);padding-block-end:26px}
+.privacy-note{padding-block:38px 70px;border-block-start:1px solid var(--line)}.privacy-note h2{font:600 18px/1.8 var(--body);margin-block-end:18px}.privacy-note p{max-width:960px;font-size:14px;line-height:2;color:var(--muted)}
+.social-links{grid-column:1/-1;display:flex;gap:24px;flex-wrap:wrap;padding-block:24px;border-block-start:1px solid var(--line)}.social-links a{font-size:15px;min-height:44px;display:inline-flex;align-items:center;gap:14px}
+.whatsapp-contact{position:fixed;inset-inline-end:24px;bottom:24px;z-index:30;background:var(--burgundy);color:white;border:1px solid #fff8;box-shadow:0 6px 24px #25282626;display:flex;align-items:center;gap:10px;padding:12px 20px;border-radius:32px;font-size:15px;min-height:50px}
+@media(min-width:1001px) and (max-width:1250px){.site-header{gap:20px;padding-inline:3%}html[lang=ar] .main-nav{font-size:14px;gap:15px}.header-consult{font-size:12px;padding-inline:12px}.brand{gap:6px}.brand-emblem{width:88px}}
+@media(max-width:1000px){.header-consult{margin-inline-start:auto}.arabic-only .site-header .menu{margin-inline-start:0}.site-header{gap:14px}.consultation,.questions{gap:5%;grid-template-columns:1fr 1.2fr}.consultation-panel{padding:24px}}
+@media(max-width:700px){.header-consult{display:none}.arabic-only .site-header .menu{margin-inline-start:auto}.consultation,.questions{grid-template-columns:1fr;gap:32px;padding-block:56px;scroll-margin-top:95px}.consultation h2,.questions h2{font-size:36px;line-height:1.5}.consultation .lead{font-size:16px;line-height:2;margin-block-start:24px}.consultation-details{margin-block-start:26px;font-size:14px;gap:14px}.consultation-panel{padding:24px 20px}.form-grid{grid-template-columns:1fr;gap:22px}.form-grid label{font-size:14px}.form-grid input,.form-grid select,.form-grid textarea{font-size:16px}.consent{font-size:13px}.consultation-panel .button{width:100%;font-size:15px;min-height:52px}.faq-list summary{font-size:16px;padding-block:21px}.faq-list details p{font-size:15px;line-height:2}.privacy-note{padding-block:32px 50px}.privacy-note p{font-size:14px}.whatsapp-contact{bottom:16px;inset-inline-end:16px;font-size:14px;padding:11px 16px}.social-links{gap:18px}.values-grid article{padding-block-start:20px}}
+@media(prefers-reduced-motion:reduce){.expertise-links a{transition:none}}
